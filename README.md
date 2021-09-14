@@ -12,6 +12,10 @@ Provided your version of Node is compatible (this repository uses Node 16), the 
 ```
 npm run launch
 ```
+The port you serve your website on can also be set by using the WEBAPP_PORT environment variable:
+```
+WEBAPP_PORT=3030 npm run launch
+```
 
 ## Editing styles
 
